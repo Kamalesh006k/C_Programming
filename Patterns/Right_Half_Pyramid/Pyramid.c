@@ -1,0 +1,58 @@
+// #include <stdio.h>
+// void main(){
+//     int n;
+//     printf("Enter the value of n: ");
+//     scanf("%d",&n);
+
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=i; j++){
+//             printf("%d ",j);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include <stdio.h>
+// void main(){
+//     int n;
+//     printf("Enter the value of n: ");
+//     scanf("%d",&n);
+
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=i; j++){
+//             printf("%d ",i);
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+// #include <stdio.h>
+// void main(){
+//     int n;
+//     printf("Enter the value of n: ");
+//     scanf("%d",&n);
+
+//     for(int i=1; i<=n; i++){
+//         for(int j=1; j<=i; j++){
+//             printf("* ");
+//         }
+//         printf("\n");
+//     }
+// }
+
+
+#include <stdio.h>
+void main(){
+    int n;
+    printf("Enter the value of n: ");
+    scanf("%d",&n);
+
+    for(int i=1; i<=n; i++){
+        for(int j=0; j<i; j++){
+            printf("%c ",'A'+j);
+        }
+        printf("\n");
+    }
+}
